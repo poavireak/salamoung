@@ -1,0 +1,88 @@
+
+*{
+	padding: 0;
+	margin:0 auto;
+}
+.container{
+	display: block;
+}
+.menu{
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+	background-color: #93ac2e;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	text-align: center;
+	position: relative;
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #FFF;
+	text-align: center;
+	display: block;
+	padding:10px 40px;
+	margin:0 -2px;
+	width: 76px;
+	transition-duration: .5s;
+}
+.menu ul li a:hover{
+	background-color: #b9cc6a;
+	transform:scale(1.1);
+	transition-duration: .5s;
+}
+.active{
+	background-color: #b9cc6a;
+}
+.content{
+	margin-top:40px;
+}
+.content .rowbanner .banner{
+	width: 1300px;
+}
+.content .rowbanner .banner img{
+	width:100%;
+}
+.content .row{
+	width: 1277px;
+	margin-top: -5px;
+	border-left: 1px solid #93ac2e;
+	border-right: 1px solid #93ac2e;
+}
+.content .row .colleft{
+	float: left;
+	width:300px;
+	padding: 5px;
+}
+.content .row .colleft a{
+	display: block;
+	font-size: 18px;
+	text-decoration: none;
+}
+.content .row .colcenter{
+	border: 1px solid #CCC;
+	box-shadow: 0 0 5px #CCC;
+	width:620px;
+	padding: 5px;
+	font-family: Khmer OS Battambang;
+	display: inline-block;
+}
+.content .row .colright{
+	float: right;
+	width:300px;
+	padding: 5px;
+}
+.content .row .colright img{
+	width: 100%;
+}
+.clear{
+	clear: both;
+}
+.container .footer{
+	background-color:#93ac2e;
+	color: #FFF;
+	text-align: center; 
+}
